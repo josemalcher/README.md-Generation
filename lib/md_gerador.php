@@ -35,7 +35,7 @@ echo "<br>";
 <p><?php echo htmlentities('## <a name="indice">Índice</a>'); ?></p>
 <?php
 foreach ($topicos_arr as $key => $value) {
-    echo $key .". [" . trim($value) . "](#parte" . $key . ")&nbsp &nbsp &nbsp";
+    echo ($key + 1) .". [" . trim($value) . "](#parte" . ($key + 1) . ")&nbsp &nbsp &nbsp";
     echo "<br>";
 }
 ?>
@@ -44,7 +44,7 @@ foreach ($topicos_arr as $key => $value) {
 <?php
 foreach ($topicos_arr as $key => $value) {
     echo "<br>";
-    echo htmlentities('## <a name="parte' . $key . '">' . $value . '</a>');
+    echo htmlentities('## <a name="parte' . ($key + 1) . '">' . ($key + 1) .' - ' . $value . '</a>');
     echo "<br>";
     echo "<br>";
     echo "<br>";
