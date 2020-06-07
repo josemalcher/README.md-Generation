@@ -1,0 +1,16 @@
+# README.md Generation
+
+Sistema para geração de Arquivos README.md para uso no github.
+
+Modelo Inspirado do Repositório de Regina Diana / [https://gist.github.com/reginadiana/](https://gist.github.com/reginadiana/e044fe93ed81aa04a10361cb841c0409)
+
+
+Objetivo de automatizar e organizar a criação desse arquivo.
+
+- Atualmente ele gera o texto na página html.
+
+
+Artigo https://dev.to/dianaops/como-escrever-um-readme-md-sensacional-no-github-4509
+
+____________________________________________________________________________________________
+
